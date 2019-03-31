@@ -13,7 +13,7 @@
 RakuChordにはUSB端子がついており、ここからファームウェアを書き込むことができます。
 書き込みを失敗すると最悪の場合RakuChordが動かなくなる可能性があります。自己責任で作業してください。
 
-また、RakuChordのUSB端子は、市販品と比べてもろく、抜き差しを乱暴に行うとコネくタが基板からはがれてしまう場合があります。
+また、RakuChordのUSB端子は、市販品と比べてもろく、抜き差しを乱暴に行うとコネクタが基板からはがれてしまう場合があります。
 いわゆる`もげマイクロ`という現象です。
 
 [![thumbnail](https://pbs.twimg.com/media/Dz7sucGVYAIFRX9.jpg)](https://twitter.com/ina_ani/status/1098575647641948160)
