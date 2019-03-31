@@ -71,6 +71,16 @@ $ platformio run
 
 [![thumbnail](https://pbs.twimg.com/media/D2gYNjTUgAA877x.png)](https://twitter.com/ina_ani/status/1110164460625235968)
 
+
+### 構成
+
+ここまでの構成をまとめると下記のようになります。
+
+
+```
+[RakuChord] --(USBケーブル)--> [HairlessMIDI] --> [loopMIDI] --> [MIDI Sequencer] --> [Virtual MIDI Synth]
+```
+
 ## 機能
 
 - RakuChordのSettingスイッチを押しながら、音階スイッチを押すことでMIDIのProgramChange（音色変更）を実行できます
