@@ -63,6 +63,14 @@ $ platformio run
 
 手元の環境では、これでそれらしく演奏することができました。
 
+### リアルタイム入力として使う場合
+
+1. [loopMIDI](https://www.tobias-erichsen.de/software/loopmidi.html)をインストールします。
+1. Hairless MIDI to Serial BridgeのMIDI Outを`loopMIDI Port`に設定します
+1. MIDI入力に対応したシーケンサなどのソフトで、MIDI-INとして `loopMIDI Port`を設定することでMIDI入力デバイスとしてRakuChordを利用することができます。
+
+[![thumbnail](https://pbs.twimg.com/media/D2gYNjTUgAA877x.png)](https://twitter.com/ina_ani/status/1110164460625235968)
+
 ## 機能
 
 - RakuChordのSettingスイッチを押しながら、音階スイッチを押すことでMIDIのProgramChange（音色変更）を実行できます
